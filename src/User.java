@@ -6,7 +6,7 @@ public class User {
     private String userName;
     private String password;
     private boolean active;
-    Scanner input = new Scanner(System.in);
+
 
     User(String userName, String password, boolean active) {
         this.userName = userName;
@@ -37,11 +37,6 @@ public class User {
 
     public String getUserName() {
       return userName;
-    }
-
-
-    public String getPassword() {
-       return password;
     }
 
 
