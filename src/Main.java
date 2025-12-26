@@ -11,6 +11,7 @@ User user3 = new User("Finn", "password123", false);
         System.out.println("Username: " + user1.getUserName() + " |  Status : " + user1.checkStatus());
         user2.deActivateAcc();
         System.out.println("Username: " + user2.getUserName() + " |  Status : " + user2.checkStatus());
+        System.out.println("Username: " + user3.getUserName() + " |  Status : " + user3.checkStatus());
 
 
 
